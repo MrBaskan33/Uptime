@@ -2,9 +2,9 @@
   "name": "Uptime",
   "version": "4.0.0",
   "description": "Uptime",
-  "main": "bot.js",
+  "main": "baskan.js",
   "scripts": {
-    "start": "node --no-warnings bot.js"
+    "start": "node --no-warnings baskan.js"
   },
   "dependencies": {
     "discord.js": "^14.15.3",
