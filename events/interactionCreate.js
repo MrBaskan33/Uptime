@@ -28,7 +28,7 @@ module.exports = {
     
     const buttons = new Discord.ActionRowBuilder()
       .addComponents(new Discord.ButtonBuilder()        
-        .setURL(`https://discord.gg/Mr8Dp2Bwk2`)
+        .setURL(settings.supportServer)
         .setLabel((locales[interaction.locale] ?? locales[settings.defaultLang])["support-server"])
         .setStyle("Link"))
     
