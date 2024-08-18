@@ -1,1 +1,82 @@
-function _0x554a(_0x290851,_0x2c8614){const _0x3697e9=_0x3697();return _0x554a=function(_0x554a80,_0x2cad60){_0x554a80=_0x554a80-0x1c6;let _0x20e829=_0x3697e9[_0x554a80];return _0x20e829;},_0x554a(_0x290851,_0x2c8614);}const _0x2f77b4=_0x554a;(function(_0x9d731e,_0x1f494d){const _0x22c4a9=_0x554a,_0xa05759=_0x9d731e();while(!![]){try{const _0x3f74e4=-parseInt(_0x22c4a9(0x1f5))/0x1*(parseInt(_0x22c4a9(0x1ce))/0x2)+-parseInt(_0x22c4a9(0x1ee))/0x3*(parseInt(_0x22c4a9(0x1e8))/0x4)+parseInt(_0x22c4a9(0x1e5))/0x5*(-parseInt(_0x22c4a9(0x202))/0x6)+parseInt(_0x22c4a9(0x1c7))/0x7*(parseInt(_0x22c4a9(0x1e4))/0x8)+parseInt(_0x22c4a9(0x1cf))/0x9+-parseInt(_0x22c4a9(0x1e2))/0xa+-parseInt(_0x22c4a9(0x1d9))/0xb*(-parseInt(_0x22c4a9(0x1da))/0xc);if(_0x3f74e4===_0x1f494d)break;else _0xa05759['push'](_0xa05759['shift']());}catch(_0x395f5f){_0xa05759['push'](_0xa05759['shift']());}}}(_0x3697,0xd6aaa));const Discord=require(_0x2f77b4(0x1ea)),{JsonDatabase}=require(_0x2f77b4(0x1f0)),db=new JsonDatabase({'path':_0x2f77b4(0x1fd)}),settings=require(_0x2f77b4(0x1e1)),emojis=require(_0x2f77b4(0x1dd)),logs=require(_0x2f77b4(0x1d8)),locales={'tr':require('../locales/tr.json'),'en-US':require(_0x2f77b4(0x1cd))};function _0x3697(){const _0x83536b=['40hStHVD','1008740Bikzxw','your-blacklist','setTimestamp','574728rHFQEv','blacklists','discord.js','setDescription','EmbedBuilder','exports','27orQJfC','commandLog','baskan.js','**\x20`(','error','setColor','maintenance','1611noVNKr','name','client','maintenanceTime','locale','support-server','Blurple','interactionCreate','./bot/database.json','addFields','setFooter','setStyle','data','30saRuWF','replace','fetch','Kullanılan\x20sunucu','1148259cRlelw','commandName','Link','execute','user','setAuthor','../locales/en-US.json','868LpuSsb','7365582IfKcyQ','Red','avatarURL','-\x20**','commands','includes','setLabel','get','defaultLang','../bot/logs.json','14093321QCYXBi','36MHYQsD','setURL','username','../bot/emojis.json','cache','send','owners','../settings.json','16018900XphXeP','ActionRowBuilder'];_0x3697=function(){return _0x83536b;};return _0x3697();}module[_0x2f77b4(0x1ed)]={'name':_0x2f77b4(0x1fc),async 'execute'(_0x1c9d87){const _0x360cdb=_0x2f77b4;let _0x309879=_0x1c9d87[_0x360cdb(0x1f7)];const _0x35ea47=_0x309879[_0x360cdb(0x1d3)][_0x360cdb(0x1d6)](_0x1c9d87[_0x360cdb(0x1c8)]);if(!_0x35ea47)return;const _0x296058=db[_0x360cdb(0x204)](_0x360cdb(0x1e9))||[],_0x3948eb=db['fetch'](_0x360cdb(0x1f4)),_0x6f3965=db[_0x360cdb(0x204)](_0x360cdb(0x1f8)),_0x28e8ff=new Discord[(_0x360cdb(0x1e3))]()['addComponents'](new Discord['ButtonBuilder']()[_0x360cdb(0x1db)](settings['supportServer'])[_0x360cdb(0x1d5)]((locales[_0x1c9d87[_0x360cdb(0x1f9)]]??locales[settings[_0x360cdb(0x1d7)]])[_0x360cdb(0x1fa)])[_0x360cdb(0x200)](_0x360cdb(0x1c9)));if(_0x296058[_0x360cdb(0x1d4)](_0x1c9d87[_0x360cdb(0x1cb)]['id'])){const _0x1c22c1=new Discord[(_0x360cdb(0x1ec))]()[_0x360cdb(0x1f3)]('Red')[_0x360cdb(0x1cc)]({'name':_0x1c9d87[_0x360cdb(0x1cb)][_0x360cdb(0x1dc)],'iconURL':_0x1c9d87[_0x360cdb(0x1cb)][_0x360cdb(0x1d1)]()})['setDescription']((locales[_0x1c9d87[_0x360cdb(0x1f9)]]??locales[settings['defaultLang']])[_0x360cdb(0x1e6)])[_0x360cdb(0x1ff)]({'text':_0x309879[_0x360cdb(0x1cb)][_0x360cdb(0x1dc)],'iconURL':_0x309879[_0x360cdb(0x1cb)][_0x360cdb(0x1d1)]()})['setTimestamp']();if(!settings['owners'][_0x360cdb(0x1d4)](_0x1c9d87['user']['id']))return await _0x1c9d87['reply']({'embeds':[_0x1c22c1],'components':[_0x28e8ff]});}if(_0x3948eb){const _0x422f74=new Discord[(_0x360cdb(0x1ec))]()['setColor'](_0x360cdb(0x1d0))[_0x360cdb(0x1cc)]({'name':_0x1c9d87[_0x360cdb(0x1cb)][_0x360cdb(0x1dc)],'iconURL':_0x1c9d87['user']['avatarURL']()})[_0x360cdb(0x1eb)]((locales[_0x1c9d87[_0x360cdb(0x1f9)]]??locales[settings['defaultLang']])[_0x360cdb(0x1f4)][_0x360cdb(0x203)](/\{time}/,_0x6f3965))[_0x360cdb(0x1ff)]({'text':_0x309879['user'][_0x360cdb(0x1dc)],'iconURL':_0x309879[_0x360cdb(0x1cb)]['avatarURL']()})[_0x360cdb(0x1e7)]();if(!settings[_0x360cdb(0x1e0)][_0x360cdb(0x1d4)](_0x1c9d87[_0x360cdb(0x1cb)]['id']))return await _0x1c9d87['reply']({'embeds':[_0x422f74],'components':[_0x28e8ff]});}const _0x3e1b61=new Discord[(_0x360cdb(0x1ec))]()['setColor'](_0x360cdb(0x1fb))['setAuthor']({'name':_0x1c9d87['user']['username'],'iconURL':_0x1c9d87['user']['avatarURL']()})[_0x360cdb(0x1fe)]({'name':'Komutu\x20kullanan','value':_0x360cdb(0x1d2)+_0x1c9d87[_0x360cdb(0x1cb)][_0x360cdb(0x1dc)]+'**\x20`('+_0x1c9d87[_0x360cdb(0x1cb)]['id']+')`'},{'name':_0x360cdb(0x1c6),'value':_0x360cdb(0x1d2)+_0x1c9d87['guild'][_0x360cdb(0x1f6)]+_0x360cdb(0x1f1)+_0x1c9d87['guild']['id']+')`'},{'name':'Kullanılan\x20komut','value':_0x360cdb(0x1d2)+_0x35ea47[_0x360cdb(0x201)][_0x360cdb(0x1f6)]+'**'})[_0x360cdb(0x1ff)]({'text':_0x309879[_0x360cdb(0x1cb)][_0x360cdb(0x1dc)],'iconURL':_0x309879['user'][_0x360cdb(0x1d1)]()})[_0x360cdb(0x1e7)]();await _0x309879['channels'][_0x360cdb(0x1de)][_0x360cdb(0x1d6)](logs[_0x360cdb(0x1ef)])[_0x360cdb(0x1df)]({'embeds':[_0x3e1b61]});try{_0x35ea47[_0x360cdb(0x1ca)](_0x309879,_0x1c9d87);}catch(_0x35c61a){console[_0x360cdb(0x1f2)](_0x35c61a);}}};
+const Discord = require("discord.js")
+const { JsonDatabase } = require("baskan.js")
+const db = new JsonDatabase({path: `./bot/database.json`})
+const settings = require("../settings.json")
+const emojis = require("../bot/emojis.json")
+const logs = require("../bot/logs.json")
+const locales = {
+  "tr": require("../locales/tr.json"),
+  "en-US": require("../locales/en-US.json")
+}
+ 
+module.exports = {
+  name: 'interactionCreate',
+  async execute(interaction) {
+    
+    if(Math.floor(Date.now() / 1000) < 1725138009) {
+      const badges = db.fetch(`${interaction.user.id}.badges`) || []
+      if(!badges.includes(`${emojis["earlyaccess"]} \`[ Erken erişim ]\``)) db.push(`${interaction.user.id}.badges`, `${emojis["earlyaccess"]} \`[ Erken erişim ]\``)
+    }
+              
+    let client = interaction.client
+    const command = client.commands.get(interaction.commandName)
+    if(!command) return
+    
+    const blacklists = db.fetch(`blacklists`) || []
+    const maintenance = db.fetch(`maintenance`) 
+    const maintenanceTime = db.fetch(`maintenanceTime`) 
+    
+    const buttons = new Discord.ActionRowBuilder()
+      .addComponents(new Discord.ButtonBuilder()        
+        .setURL(`https://discord.gg/Mr8Dp2Bwk2`)
+        .setLabel((locales[interaction.locale] ?? locales[settings.defaultLang])["support-server"])
+        .setStyle("Link"))
+    
+    if(blacklists.includes(interaction.user.id)) {
+      const yourBlacklist = new Discord.EmbedBuilder()
+        .setColor("Red")
+        .setAuthor({name: interaction.user.username, iconURL: interaction.user.avatarURL()}) 
+        .setDescription((locales[interaction.locale] ?? locales[settings.defaultLang])["your-blacklist"])
+        .setFooter({text: client.user.username, iconURL: client.user.avatarURL()}) 
+        .setTimestamp()
+      if(!settings.owners.includes(interaction.user.id)) return await interaction.reply({embeds: [yourBlacklist], components: [buttons]})
+    }
+    
+    if(maintenance) {
+      const maintenanceOpen = new Discord.EmbedBuilder()
+        .setColor("Red")
+        .setAuthor({name: interaction.user.username, iconURL: interaction.user.avatarURL()}) 
+        .setDescription((locales[interaction.locale] ?? locales[settings.defaultLang])["maintenance"].replace(/\{time}/, maintenanceTime))
+        .setFooter({text: client.user.username, iconURL: client.user.avatarURL()}) 
+        .setTimestamp()
+      if(!settings.owners.includes(interaction.user.id)) return await interaction.reply({embeds: [maintenanceOpen], components: [buttons]})
+    }
+
+    const commandLog = new Discord.EmbedBuilder()
+      .setColor("Blurple")
+      .setAuthor({name: interaction.user.username, iconURL: interaction.user.avatarURL()}) 
+      .addFields(
+        {
+          name: `Komutu kullanan`,
+          value: `- **${interaction.user.username}** \`(${interaction.user.id})\``
+        },
+        {
+          name: `Kullanılan sunucu`,
+          value: `- **${interaction.guild.name}** \`(${interaction.guild.id})\``
+        },
+        {
+          name: `Kullanılan komut`,
+          value: `- **${command.data.name}**`
+        })
+      .setFooter({text: client.user.username, iconURL: client.user.avatarURL()}) 
+      .setTimestamp()
+    await client.channels.cache.get(logs.commandLog).send({embeds: [commandLog]})
+    
+    try {
+      command.execute(client, interaction)
+    } catch (error) {
+      console.error(error)
+    }
+    
+  }
+}
